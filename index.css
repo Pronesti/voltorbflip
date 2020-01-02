@@ -1,0 +1,83 @@
+.game{
+margin: auto;
+width: 800px;
+padding: 10px;
+text-align: center;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+}
+
+.botonTablero{
+    background-color: white;
+    border: none;
+    height: 100px;
+    width: 100px;
+    font-size: xx-large;
+}
+
+.botonTablero:hover{
+    transform: scale(1.5);
+    transition: all 0.5s ease;
+    color: orange;
+}
+
+.botonInfo{
+    background-color: white;
+    color:grey;
+    border: none;
+    width: 150px;
+    font-size: larger;
+}
+
+.botonInfoExtra{
+    background-color: transparent;
+    color:grey;
+    border: none;
+    width: 150px;
+    font-size: larger;
+}
+
+.botonInfoAbajo{
+    background-color: white;
+    color:grey;
+    border: none;
+    height: 100px;
+    width: 100px;
+    font-size: larger;
+}
+
+.botonAccion{
+    background-color: white;
+    border: none;
+    height: 100px;
+    width: 248px;
+    font-size: xx-large;
+    padding: 0;
+    margin: 0;
+    margin-top: 4px;
+}
+.botonAccionExtra{
+    background-color: transparent;
+    color: transparent;
+    border: none;
+    height: 100px;
+    width: 145px;
+    font-size: xx-large;
+    padding: 0;
+    margin: 0;
+    margin-top: 4px;
+}
+
+.marking{
+    color:red;
+}
+
+.rojo{
+    color: red;
+}
+.verde{
+    color: green;
+}
+.negro{
+    color: black;
+}
