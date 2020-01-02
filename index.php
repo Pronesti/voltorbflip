@@ -53,8 +53,6 @@ if(empty($_SESSION['status'])){
         }
     }
 
-    //print_r($multipliers);    
-
     $_SESSION['status'] = 'playing';
     $_SESSION['result'] = $board;
 }else{
